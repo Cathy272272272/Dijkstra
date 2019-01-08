@@ -11,6 +11,8 @@ Mine OpenMp version is slower than serial one, because I only create one minHeap
 For OpenMp, I create minHeap for each vertex source to avoid crashing, so it is slower.
 
 
+
+
 Timing:
 
 For serial.c:
@@ -19,9 +21,17 @@ test_graph_small.txt: 4.410999s
 
 test_graph.txt: 5319.476639s
 
+
+
+
 For OpenMP.c:
+
 test_graph_small.txt:
+
 8.666312s when number_of_threads = 3
+
 7.423817s when number_of_threads = 5
+
 7.758672s when number_of_threads = 10
+
 9.605392s when number_of_threads = 100
