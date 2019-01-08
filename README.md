@@ -12,8 +12,8 @@ For OpenMp, I create minHeap for each vertex source to avoid crashing, so it is 
 
 Timing:
 For serial.c:
-test_graph_small.txt: 4.410999s
-test_graph.txt: 5319.476639s
+ test_graph_small.txt: 4.410999s
+ test_graph.txt: 5319.476639s
 
 For OpenMP.c:
 test_graph_small.txt:
